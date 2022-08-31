@@ -8,10 +8,9 @@ class Person {
     }
     sayFullName() {
       return `${this.firstName} ${this.lastName}`
-
     }
-    greetExtraTerrestrials() {
-      return `Welcome to Planet Earth ${this.raceName}`
+  static greetExtraTerrestrials(raceName) {
+      return `Welcome to Planet Earth ${raceName}`
     }
 }
 
