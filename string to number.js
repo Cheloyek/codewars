@@ -8,3 +8,9 @@ function unusualFive() {
 function unusualFive() {
   return 'string'.length // выведет 5
 }
+
+// variant 3
+function unusualFive() {
+  let massiv = ["5", "5", "5", "5", "5"]
+  return massiv.length // выведет 5
+}
