@@ -1,3 +1,4 @@
+//1
 function betterThanAverage(classPoints, yourPoints) {
   sum = 0
   //сумма значений массива
@@ -12,4 +13,14 @@ function betterThanAverage(classPoints, yourPoints) {
   } else {
     return false
   }
+}
+
+//2
+function getAverage(marks){
+  sum = 0
+  for (i = 0; i < marks.length; i++) {
+    sum += marks[i]
+  }
+  let mSum = Math.round(sum / marks.length) //округление до ближайшего целого
+    return mSum
 }
